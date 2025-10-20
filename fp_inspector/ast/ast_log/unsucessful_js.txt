@@ -1,0 +1,12 @@
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/drobne.fm/js/12.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/projectcamelot.org/js/56.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/scruff.com/js/22.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/drobne.fm/js/12.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/projectcamelot.org/js/56.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/scruff.com/js/22.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/samtec.com/js/71.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/picoworkers.com/js/39.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/tinyhouseswoon.com/js/28.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/tinyhouseswoon.com/js/22.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/tinyhouseswoon.com/js/29.js
+/home/pooneh/API_call_traces/server/crawled/sampled11_2/tinyhouseswoon.com/js/40.js

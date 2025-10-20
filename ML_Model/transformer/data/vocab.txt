@@ -1,0 +1,682 @@
+[PAD]
+[CLS]
+[EOS]
+[UNK]
+.Wide
+0
+12
+Add
+Add.Wide
+AddSmi
+AddSmi.ExtraWide
+AddSmi.Wide
+BitwiseAnd
+BitwiseAnd.Wide
+BitwiseAndSmi
+BitwiseAndSmi.ExtraWide
+BitwiseAndSmi.Wide
+BitwiseNot
+BitwiseNot.Wide
+BitwiseOr
+BitwiseOr.Wide
+BitwiseOrSmi
+BitwiseOrSmi.ExtraWide
+BitwiseOrSmi.Wide
+BitwiseXor
+BitwiseXor.Wide
+BitwiseXorSmi
+BitwiseXorSmi.Wide
+CallAnyReceiver
+CallPropertParameter count 2
+CallProperty
+CallProperty.Wide
+CallProperty0
+CallProperty0.Wide
+CallProperty1
+CallProperty1.Wide
+CallProperty1IfToBooleanFalse
+CallProperty2
+CallProperty2.Wide
+CallRuntime
+CallRuntime.Wide
+CallRuntimeForPair
+CallUndefiParameter count 1
+CallUndefinedReceiver
+CallUndefinedReceiver.Wide
+CallUndefinedReceiver0
+CallUndefinedReceiver0.Wide
+CallUndefinedReceiver1
+CallUndefinedReceiver1.WfFalse
+CallUndefinedReceiver1.Wide
+CallUndefinedReceiver1.perty.Wide
+CallUndefinedReceiver2
+CallUndefinedReceiver2.Wide
+CallUndefinefFalse
+CallWithSpread
+CallWithSpread.Wide
+CloneObject
+CloneObject.Wide
+Closure.Wide
+Construct
+Construct.Wide
+ConstructWithSpread
+CrParameter count 2
+CreateArrayFromIterable
+CreateArrayLiteral
+CreateArrayLiteral.Wide
+CreateBlockContext
+CreateBlockContext.Wide
+CreateCatchContext
+CreateCatchContext.Wide
+CreateClosure
+CreateClosure.Wide
+CreateClosure.WideParameter count 2
+CreateEmptyArrayLiteral
+CreateEmptyArrayLiteral.Wide
+CreateEmptyObjectLiteral
+CreateFunctionContext
+CreateFunctionContext.Wide
+CreateMappedArguments
+CreateObjectLitParameter count 14
+CreateObjectLiteral
+CreateObjectLiteral.WiParameter count 39
+CreateObjectLiteral.Wide
+CreateRegExpLiteral
+CreateRegExpLiteral.Wide
+CreateRestParameter
+CreateUnmappedArguments
+Dec
+Dec.Wide
+DefineKeyedOwnProperty
+DefineKeyedOwnProperty.Wide
+DefineKeyedOwnPropertyInLiteral
+DefineKeyedOwnPropertyInLiteral.Wide
+DefineNamedOwnProperty
+DefineNamedOwnProperty.Wide
+DefineNameo
+DeletePropertySloppy
+DeletePropertyStrict
+Div
+Div.Wide
+DivSmi
+DivSmi.ExtraWide
+DivSmi.Wide
+EqualStrict
+FindNonDefaultConstructorOrConstruct
+ForInContinue
+ForInContinue.Wide
+ForInEnumerate
+ForInEnumerate.Wide
+ForInNext
+ForInNext.Wide
+ForInPrepare
+ForInPrepare.Wide
+ForInStep
+ForInStep.Wide
+Frame size 0
+Frame size 1000
+Frame size 104
+Frame size 1040
+Frame size 1064
+Frame size 1096
+Frame size 112
+Frame size 1120
+Frame size 1168
+Frame size 1192
+Frame size 120
+Frame size 1216
+Frame size 1232
+Frame size 128
+Frame size 136
+Frame size 144
+Frame size 1456
+Frame size 1512
+Frame size 152
+Frame size 1520
+Frame size 16
+Frame size 160
+Frame size 1616
+Frame size 1648
+Frame size 168
+Frame size 1752
+Frame size 176
+Frame size 1768
+Frame size 1800
+Frame size 184
+Frame size 1848
+Frame size 192
+Frame size 200
+Frame size 2024
+Frame size 208
+Frame size 2136
+Frame size 216
+Frame size 2176
+Frame size 2200
+Frame size 224
+Frame size 232
+Frame size 24
+Frame size 240
+Frame size 2448
+Frame size 248
+Frame size 256
+Frame size 2584
+Frame size 264
+Frame size 272
+Frame size 2728
+Frame size 280
+Frame size 2872
+Frame size 288
+Frame size 296
+Frame size 304
+Frame size 312
+Frame size 32
+Frame size 320
+Frame size 3232
+Frame size 3256
+Frame size 328
+Frame size 336
+Frame size 344
+Frame size 352
+Frame size 360
+Frame size 368
+Frame size 376
+Frame size 384
+Frame size 392
+Frame size 40
+Frame size 400
+Frame size 408
+Frame size 416
+Frame size 424
+Frame size 432
+Frame size 440
+Frame size 448
+Frame size 456
+Frame size 4608
+Frame size 464
+Frame size 472
+Frame size 48
+Frame size 480
+Frame size 488
+Frame size 496
+Frame size 512
+Frame size 520
+Frame size 528
+Frame size 536
+Frame size 544
+Frame size 5496
+Frame size 552
+Frame size 56
+Frame size 560
+Frame size 568
+Frame size 576
+Frame size 584
+Frame size 592
+Frame size 600
+Frame size 608
+Frame size 616
+Frame size 624
+Frame size 632
+Frame size 64
+Frame size 680
+Frame size 688
+Frame size 696
+Frame size 712
+Frame size 72
+Frame size 720
+Frame size 728
+Frame size 744
+Frame size 784
+Frame size 792
+Frame size 8
+Frame size 80
+Frame size 800
+Frame size 808
+Frame size 824
+Frame size 832
+Frame size 840
+Frame size 856
+Frame size 864
+Frame size 872
+Frame size 88
+Frame size 880
+Frame size 888
+Frame size 896
+Frame size 920
+Frame size 936
+Frame size 96
+Frame size 968
+G.Wide
+GetIterator
+GetIterator.Wide
+GetKeyedProperty
+GetKeyedProperty.Wide
+GetNamedPropeParameter count 1
+GetNamedProperty
+GetNamedProperty.Wide
+GetNamedPropertyFromSuper
+GetNamedPropertyParameter count 3
+GetNamedPropertytaCurrentContextSlot
+GetNametNamedProperty
+GetTemplateObject
+GetTemplateObject.Wide
+Inc
+Inc.Wide
+InvokeIntrinsic
+InvokeIntrinsic.Wide
+Jumde
+Jump
+Jump.Wide
+JumpConstant
+JumpIParameter count 1
+JumpIParameter count 2
+JumpIParameter count 23
+JumpIfFalse
+JumpIfFalse.Wide
+JumpIfFalseConstant
+JumpIfJSReceiver
+JumpIfJSReceiver.Wide
+JumpIfNotNull
+JumpIfNotNull.Wide
+JumpIfNotNullConstant
+JumpIfNotUndefined
+JumpIfNotUndefined.Wide
+JumpIfNotUndefinedConstant
+JumpIfNull
+JumpIfNull.Wide
+JumpIfNullConstant
+JumpIfToBooleanFalse
+JumpIfToBooleanFalse.Wide
+JumpIfToBooleanFalseConstant
+JumpIfToBooleanTrue
+JumpIfToBooleanTrue.Wide
+JumpIfToBooleanTrueConstant
+JumpIfTrue
+JumpIfTrue.Wide
+JumpIfTrueConstant
+JumpIfUndefined
+JumpIfUndefined.Wide
+JumpIfUndefinedConstant
+JumpIfUndefinedOrNull
+JumpIfUndefinedOrNull.Wide
+JumpIfUndefinedOrNullConstant
+JumpInArrayLiteral.Wide
+JumpLoop
+JumpLoop.Wide
+JumpbleCurrentContextSlot.Wide
+LParameter count 1
+LdParameter count 1
+LdaConstant
+LdaConstant.Wide
+LdaContextSlot
+LdaContextSlot.Wide
+LdaCurrentConParameter count 2
+LdaCurrentContextParameter count 1
+LdaCurrentContextSlot
+LdaCurrentContextSlot.Wide
+LdaFalse
+LdaGloParameter count 3
+LdaGlobal
+LdaGlobal.Wide
+LdaGlobalInsideTypeof
+LdaGlobalInsideTypeof.Wide
+LdaImmutaParameter count 2
+LdaImmutableContextSlot
+LdaImmutableContextSlot.Wide
+LdaImmutableCurreeateObjectLiteral.Wide
+LdaImmutableCurrenetNamedProperty
+LdaImmutableCurrentContextSParameter count 12
+LdaImmutableCurrentContextSlot
+LdaImmutableCurrentContextSlot.Wide
+LdaImmutay1.Wide
+LdaLookupContextSlot
+LdaLookupGlobalSlot
+LdaLookupGlobalSlot.Wide
+LdaLookupGlobalSlotInsideTypeof
+LdaLookupGlobalSlotInsideTypeof.Wide
+LdaLookupSlot
+LdaModuleVariable
+LdaModuleVariable.Wide
+LdaNull
+LdaSmi
+LdaSmi.ExtraWide
+LdaSmi.Wide
+LdaTheHole
+LdaTrue
+LdaUndefined
+LdaZero
+LdaZertar
+Ldar
+Ldar.Wide
+LogicalNot
+Mod
+Mod.Wide
+ModSmi
+ModSmi.ExtraWide
+ModSmi.Wide
+Mov
+Mov.Wide
+Mul
+Mul.Wide
+MulSmi
+MulSmi.ExtraWide
+MulSmi.Wide
+NamedProperty.Wide
+Negate
+Negate.Wide
+Parameter count 1
+Parameter count 10
+Parameter count 11
+Parameter count 12
+Parameter count 13
+Parameter count 14
+Parameter count 15
+Parameter count 16
+Parameter count 17
+Parameter count 18
+Parameter count 2
+Parameter count 20
+Parameter count 21
+Parameter count 22
+Parameter count 23
+Parameter count 3
+Parameter count 4
+Parameter count 5
+Parameter count 6
+Parameter count 7
+Parameter count 8
+Parameter count 9
+PopContext
+PopContext.Wide
+PushContext
+PushContext.Wide
+ReThrow
+Register count 0
+Register count 1
+Register count 10
+Register count 100
+Register count 101
+Register count 103
+Register count 104
+Register count 105
+Register count 107
+Register count 108
+Register count 109
+Register count 11
+Register count 110
+Register count 111
+Register count 112
+Register count 115
+Register count 117
+Register count 12
+Register count 121
+Register count 125
+Register count 13
+Register count 130
+Register count 133
+Register count 137
+Register count 14
+Register count 140
+Register count 146
+Register count 149
+Register count 15
+Register count 152
+Register count 154
+Register count 16
+Register count 17
+Register count 18
+Register count 182
+Register count 189
+Register count 19
+Register count 190
+Register count 2
+Register count 20
+Register count 202
+Register count 206
+Register count 21
+Register count 219
+Register count 22
+Register count 221
+Register count 225
+Register count 23
+Register count 231
+Register count 24
+Register count 25
+Register count 253
+Register count 26
+Register count 267
+Register count 27
+Register count 272
+Register count 275
+Register count 28
+Register count 29
+Register count 3
+Register count 30
+Register count 306
+Register count 31
+Register count 32
+Register count 323
+Register count 33
+Register count 34
+Register count 341
+Register count 35
+Register count 359
+Register count 36
+Register count 37
+Register count 38
+Register count 39
+Register count 4
+Register count 40
+Register count 404
+Register count 407
+Register count 41
+Register count 42
+Register count 43
+Register count 44
+Register count 45
+Register count 46
+Register count 47
+Register count 48
+Register count 49
+Register count 5
+Register count 50
+Register count 51
+Register count 52
+Register count 53
+Register count 54
+Register count 55
+Register count 56
+Register count 57
+Register count 576
+Register count 58
+Register count 59
+Register count 6
+Register count 60
+Register count 61
+Register count 62
+Register count 64
+Register count 65
+Register count 66
+Register count 67
+Register count 68
+Register count 687
+Register count 69
+Register count 7
+Register count 70
+Register count 71
+Register count 72
+Register count 73
+Register count 74
+Register count 75
+Register count 76
+Register count 77
+Register count 78
+Register count 79
+Register count 8
+Register count 85
+Register count 86
+Register count 87
+Register count 89
+Register count 9
+Register count 90
+Register count 91
+Register count 93
+Register count 98
+Register count 99
+ResumeGenerator
+Return
+SeParameter count 2
+Selot
+SetKeyedProperty
+SetKeyedProperty.Wide
+SetNamedPrParameter count 6
+SetNamedProStar
+SetNamedProperty
+SetNamedProperty.Wide
+SetPendingMessage
+ShiftLeft
+ShiftLeft.Wide
+ShiftLeftSmi
+ShiftLeftSmi.Wide
+ShiftRight
+ShiftRight.Wide
+ShiftRightLogical
+ShiftRightLogical.Wide
+ShiftRightLogicalSmi
+ShiftRightLogicalSmi.Wide
+ShiftRightSmi
+ShiftRightSmi.ExtraWide
+ShiftRightSmi.Wide
+Slot
+SpConstant
+StContextSlot.Wide
+StParameter count 1
+StaContextSlot
+StaContextSlot.Wide
+StaCurrentContextSlot
+StaCurrentContextSlot.Wide
+StaGlobal
+StaGlobal.Wide
+StaI
+StaInArrayLiteral
+StaInArrayLiteral.Wide
+StaLookupSlot
+Star
+Star.Wide
+Star0
+Star1
+Star10
+Star11
+Star12
+Star13
+Star14
+Star15
+Star1Parameter count 4
+Star2
+Star3
+Star4
+Star5
+Star6
+Star7
+Star8
+Star9
+Strict
+Sub
+Sub.Wide
+SubSmi
+SubSmi.ExtraWide
+SubSmi.Wide
+SuspendGenerator
+SwitchOnGeneratorState
+SwitchOnSmiNoFeedback
+TestEqual
+TestEqual.Wide
+TestEqualParameter count 2
+TestEqualStrict
+TestEqualStrict.Wide
+TestGreaterThan
+TestGreaterThan.Wide
+TestGreaterThanOrEqual
+TestGreaterThanOrEqual.Wide
+TestIn
+TestIn.Wide
+TestInstanceOf
+TestInstanceOf.Wide
+TestLessThan
+TestLessThan.Wide
+TestLessThanOrEqual
+TestLessThanOrEqual.Wide
+TestNull
+TestReferenceEqual
+TestReferenceEqual.Wide
+TestTypeOf
+TestUndefined
+TestUndetectable
+TheHole
+Throw
+ThrowIfNotSuperConstructor
+ThrowReferenceErrorIfHole
+ThrowSuperAlreadyCalledIfNotHole
+ThrowSuperNotCalledIfHole
+ToBoolean
+ToBooleanLogicalNot
+ToName
+ToNumber
+ToNumber.Wide
+ToNumeric
+ToNumeric.Wide
+ToObject
+ToObject.Wide
+ToString
+TypeOf
+Wide
+aUndefined
+allProperty
+ar5
+ateRegExpLiteral
+bal
+bleCurrentContextSlot.Wide
+config_min
+dOwnProperty.Wide
+dProperty.Wide
+dReceiver.Wide
+daCurrentContextSlot
+daGlobal
+de
+e
+eateClosure.Wide
+ed
+edReceiver1
+efinedReceiver1
+eral.Wide
+etNamedProperty.Wide
+fFalse
+fToBooleanFalse
+gapi_iframes
+gapi_iframes_style_common/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8-3MGCaatZB3kdS5TpZdd-gOSBHg/cb=gapi.loaded_0
+gapi_iframes_style_common/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8-3MGCaatZB3kdS5TpZdd-gOSBHg/cb=gapi.loaded_0?le=scs
+https%3A%2F%2Fgossiponthis.com%2F$0;xdt=0;crlt=6hwwlE5Eht;stc=1;chaa=1;sttr=169;prcl=s
+https%3A%2F%2Fwww.firsthomelovelife.com%2F$0;xdt=1;dc_omid_p=Google2;dc_sdk_apis=7;crlt=Ipf1P-R6eu;stc=1;chaa=1;sttr=186;prcl=s
+ide
+lot
+medProperty
+mmutableCurrentContextSlot
+nedReceiver1.Wide
+ntContextSlot
+ntextSlot
+operty.Wide
+ot.Wide
+r
+rrentContextSlot.Wide
+rty
+rty.Wide
+search&v=3.exp&language=en_US&callback=onApiLoad
+search&v=3.exp&language=fr&region=ng&callback=onApiLoad
+search&v=3.exp&language=ja&region=jp&callback=onApiLoad
+search&v=3.exp&language=uk&region=ua&callback=onApiLoad
+shindig_random/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8-3MGCaatZB3kdS5TpZdd-gOSBHg/cb=gapi.loaded_0?le=scs
+tContextSlot
+tContextSlot.Wide
+tNamedProperty
+ty.Wide
+wb
+y

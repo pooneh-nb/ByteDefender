@@ -1,0 +1,193 @@
+{
+    "mercadopago.com.ar": {
+        "15": {
+            "scriptURL": "https://http2.mlstatic.com/analytics/ga/mla-mp-analytics.min.js",
+            "functions": {
+                "pd": {
+                    "API_args": [
+                        [
+                            "Navigator.language.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 2",
+                        "Register count 16",
+                        "Frame size 128",
+                        "Bytecode:",
+                        "LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star0,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star1,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star2,GetNamedProperty,Star3,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,CallProperty1,ToBoolean,Star4,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,CallProperty1,ToBoolean,Star5,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star6,CreateRegExpLiteral,Star10,GetNamedProperty,Star9,CallProperty1,JumpIfToBooleanFalse,Ldar,JumpIfToBooleanFalse,Jump,LdaConstant,Star9,LdaImmutableCurrentContextSlot,Star10,GetNamedProperty,Star10,GetNamedProperty,Add,Star4,LdaImmutableCurrentContextSlot,Star9,CallUndefinedReceiver2,JumpIfToBooleanTrue,Ldar,JumpIfToBooleanFalse,GetNamedProperty,Star9,CreateRegExpLiteral,Star11,LdaConstant,Star12,CallProperty2,Star9,LdaConstant,Add,Star5,LdaImmutableCurrentContextSlot,Star9,CallUndefinedReceiver2,JumpIfToBooleanFalse,LdaUndefined,Star6,Jump,Jump,LdaUndefined,Star6,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star12,Mov,Mov,Mov,CallProperty,Ldar,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanTrue,LdaConstant,Star3,LdaConstant,Star9,GetNamedProperty,Star10,LdaZero,Star12,CallProperty1,TestEqual,LogicalNot,JumpIfFalse,LdaImmutableCurrentContextSlot,Star9,LdaSmi,Star10,CallUndefinedReceiver1,LdaConstant,Star9,Ldar,Add,Star3,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,GetNamedProperty,Star12,LdaConstant,Add,Star12,GetNamedProperty,Add,Star12,Ldar,Add,Star12,GetNamedProperty,Add,Star12,CallProperty2,Ldar,JumpIfToBooleanFalse,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,GetNamedProperty,Star12,LdaConstant,Add,Star12,GetNamedProperty,Add,Star12,CallProperty2,Ldar,JumpIfToBooleanFalse,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,GetNamedProperty,Star12,LdaConstant,Add,Star12,CallProperty2,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star1,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star3,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanFalse,GetNamedProperty,Star6,CreateEmptyArrayLiteral,Star5,Ldar,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanFalse,LdaConstant,Star9,LdaImmutableCurrentContextSlot,Star10,GetNamedProperty,TestEqualStrict,JumpIfTrue,Ldar,JumpIfToBooleanTrue,CreateArrayLiteral,Star9,LdaZero,Star10,GetNamedProperty,StaInArrayLiteral,LdaSmi,Star10,GetNamedProperty,StaInArrayLiteral,Mov,Ldar,Jump,Ldar,JumpIfToBooleanFalse,CreateArrayLiteral,Star9,LdaZero,Star10,GetNamedProperty,StaInArrayLiteral,LdaSmi,Star10,GetNamedProperty,StaInArrayLiteral,Mov,Ldar,LdaZero,Star9,LdaZero,GetKeyedProperty,TestGreaterThanOrEqual,JumpIfTrue,LdaZero,Star9,LdaSmi,GetKeyedProperty,TestGreaterThanOrEqual,JumpIfFalse,LdaConstant,Jump,GetNamedProperty,Star9,LdaConstant,Star11,CallProperty1,Star1,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,CallProperty2,GetNamedProperty,Star1,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star3,JumpIfToBooleanFalse,GetNamedProperty,Jump,LdaNull,Star3,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanFalse,LdaZero,Star6,GetNamedProperty,TestLessThan,JumpIfFalse,Ldar,JumpIfToBooleanTrue,Ldar,GetKeyedProperty,Star5,LdaSmi,Star9,GetNamedProperty,Star11,GetNamedProperty,Star10,LdaConstant,Star12,CallProperty1,TestLessThan,JumpIfFalse,GetNamedProperty,Star7,Ldar,Inc,Star6,JumpLoop,Ldar,JumpIfToBooleanTrue,Mov,LdaLookupSlot,Star10,LdaConstant,Star11,Ldar,Construct,Star8,GetNamedProperty,Star10,LdaConstant,Star12,CallProperty1,Star7,Jump,Star10,CreateCatchContext,Star9,LdaTheHole,SetPendingMessage,Ldar,PushContext,PopContext,Ldar,JumpIfToBooleanTrue,Mov,LdaLookupSlot,Star10,LdaConstant,Star11,Ldar,Construct,Star8,LdaConstant,Star7,LdaConstant,SetNamedProperty,GetNamedProperty,Star10,LdaConstant,Star12,CallProperty1,Star7,Jump,Star10,CreateCatchContext,Star9,LdaTheHole,SetPendingMessage,Ldar,PushContext,PopContext,Ldar,JumpIfToBooleanTrue,Mov,LdaLookupSlot,Star10,LdaConstant,Star11,Ldar,Construct,Star8,GetNamedProperty,Star10,LdaConstant,Star12,CallProperty1,Star7,Jump,Star10,CreateCatchContext,Star9,LdaTheHole,SetPendingMessage,Ldar,PushContext,PopContext,Ldar,JumpIfToBooleanFalse,GetNamedProperty,Star9,CreateRegExpLiteral,Star11,CallProperty1,Star8,JumpIfToBooleanFalse,LdaSmi,Star9,GetNamedProperty,TestLessThanOrEqual,JumpIfFalse,LdaZero,GetKeyedProperty,Star9,LdaConstant,Add,Star9,LdaSmi,GetKeyedProperty,Add,Star9,LdaConstant,Add,Star9,LdaSmi,GetKeyedProperty,Add,Star7,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star12,Ldar,Mov,Mov,JumpIfToBooleanTrue,LdaUndefined,Star13,CallProperty,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,LdaImmutableCurrentContextSlot,Star12,GetNamedProperty,Mov,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star12,GetNamedProperty,Star12,CallProperty2,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,Ldar,Mov,JumpIfToBooleanFalse,GetNamedProperty,TestTypeOf,JumpIfFalse,GetNamedProperty,Star12,CallProperty0,JumpIfToBooleanTrue,LdaFalse,Star12,CallProperty2,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,Ldar,Mov,JumpIfToBooleanFalse,GetNamedProperty,JumpIfToBooleanTrue,GetNamedProperty,JumpIfToBooleanTrue,LdaConstant,Star13,GetNamedProperty,Star12,CallProperty0,Star12,CallProperty2,GetNamedProperty,Star10,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,LdaImmutableCurrentContextSlot,Star12,LdaConstant,Star13,LdaTrue,Star14,CallUndefinedReceiver2,Star12,CallProperty2,GetNamedProperty,Star10,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,LdaImmutableCurrentContextSlot,Star12,LdaConstant,Star13,LdaTrue,Star14,CallUndefinedReceiver2,Star12,CallProperty2,GetNamedProperty,Star10,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,LdaLookupSlot,Star13,GetNamedProperty,Star12,LdaLookupSlot,Star15,Construct,Star15,GetNamedProperty,Star14,CallProperty0,DivSmi.Wide,Star14,CallProperty1,Star12,CallProperty2,Ldar,JumpIfToBooleanFalseConstant,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,CallProperty1,JumpIfToBooleanFalseConstant,LdaImmutableCurrentContextSlot,Star9,GetNamedProperty,Star9,GetNamedProperty,Star0,JumpIfToBooleanFalseConstant,GetNamedProperty,Star9,CreateRegExpLiteral,Star11,CallProperty1,Star0,CreateEmptyArrayLiteral,Star2,LdaZero,Star7,GetNamedProperty,TestLessThan,JumpIfFalse,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty,Star10,LdaConstant,Star11,CallUndefinedReceiver2.Wide,JumpIfToBooleanTrue,LdaImmutableCurrentContextSlot,Star9,Ldar,GetKeyedProperty.Wide,Star10,LdaConstant,Star11,CallUndefinedReceiver2.Wide,JumpIfToBooleanFalse,GetNamedProperty.Wide,Star9,Ldar,GetKeyedProperty.Wide,Star11,CallProperty1.Wide,Ldar,Inc.Wide,Star7,JumpLoop.Wide,LdaZero,Star9,GetNamedProperty.Wide,TestLessThan.Wide,JumpIfFalse,LdaConstant,Star9,GetNamedProperty.Wide,Star10,LdaConstant,Star12,CallProperty1.Wide,Add.Wide,Star0,GetNamedProperty,Star9,LdaImmutableCurrentContextSlot,Star11,GetNamedProperty,Star12,LdaImmutableCurrentContextSlot,Star14,CallProperty1.Wide,Star12,Ldar,Add.Wide,Star12,CallProperty2.Wide,LdaUndefined,Return,"
+                    ]
+                }
+            }
+        },
+        "24": {
+            "scriptURL": "https://http2.mlstatic.com/storage/melidata-js-sdk/js/3/0.4.8/melidata.min.js",
+            "functions": {
+                "c": {
+                    "API_args": [
+                        [
+                            "Navigator.userAgent.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": ""
+                }
+            }
+        },
+        "25": {
+            "scriptURL": "",
+            "functions": {
+                "n": {
+                    "API_args": [
+                        [
+                            "Navigator.platform.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": ""
+                }
+            }
+        },
+        "34": {
+            "scriptURL": "https://js-agent.newrelic.com/nr-rum-1.248.0.min.js",
+            "functions": {}
+        },
+        "36": {
+            "scriptURL": "https://http2.mlstatic.com/frontend-assets/home-landing/mla.home.desktop.f066f47b.js",
+            "functions": {
+                "m": {
+                    "API_args": [
+                        [
+                            "Navigator.language.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 1",
+                        "Register count 6",
+                        "Frame size 48",
+                        "Bytecode:",
+                        "LdaGlobalInsideTypeof,TestTypeOf,LogicalNot,JumpIfFalse,LdaGlobal,Star1,GetNamedProperty,JumpIfToBooleanTrue,LdaGlobal,Star1,GetNamedProperty,JumpIfToBooleanTrue,LdaConstant,Star0,Mov,LdaGlobal,Star3,GetNamedProperty,Star3,GetNamedProperty,Star2,CreateArrayLiteral,Star4,LdaZero,Star5,Ldar,StaInArrayLiteral,CallProperty1,Jump,Star2,CreateCatchContext,Star1,LdaTheHole,SetPendingMessage,Ldar,PushContext,LdaConstant,Star0,PopContext,CreateObjectLiteral,Star1,Ldar,DefineNamedOwnProperty,LdaImmutableCurrentContextSlot,Star2,CallUndefinedReceiver1,JumpIfToBooleanFalse,LdaConstant,Jump,LdaConstant,DefineNamedOwnProperty,Ldar,Return,"
+                    ]
+                }
+            }
+        },
+        "38": {
+            "scriptURL": "https://www.gstatic.com/recaptcha/releases/cwQvQhsy4_nYdnSDY4u7O5_B/recaptcha__en.js",
+            "functions": {}
+        },
+        "37": {
+            "scriptURL": "https://www.googletagmanager.com/gtm.js?id=GTM-NRDZZ97",
+            "functions": {
+                "un": {
+                    "API_args": [
+                        [
+                            "NavigatorUAData.getHighEntropyValues",
+                            [
+                                {
+                                    "type": "OBJECT",
+                                    "value": "[object Array]"
+                                }
+                            ]
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 1",
+                        "Register count 7",
+                        "Frame size 56",
+                        "Bytecode:",
+                        "CreateFunctionContext,PushContext,LdaImmutableContextSlot,Star0,LdaImmutableContextSlot.Wide,Star3,CallUndefinedReceiver1,JumpIfToBooleanTrue,LdaNull,Return,LdaImmutableContextSlot.Wide,Star3,CallUndefinedReceiver1,StaCurrentContextSlot,LdaImmutableCurrentContextSlot,Star3,GetNamedProperty,JumpIfToBooleanFalse,LdaImmutableCurrentContextSlot,Star3,GetNamedProperty,Return,GetNamedProperty,Star5,GetNamedProperty,Star5,GetNamedProperty,Star4,LdaImmutableContextSlot.Wide,Star6,CallProperty1,Star4,GetNamedProperty,Star3,CreateClosure,Star5,CallProperty1,Star1,LdaImmutableCurrentContextSlot,Star3,Ldar,SetNamedProperty,Ldar,Return,"
+                    ]
+                }
+            }
+        },
+        "63": {
+            "scriptURL": "https://dynamic.criteo.com/js/ld/ld.js?a=107372",
+            "functions": {}
+        },
+        "64": {
+            "scriptURL": "https://static.hotjar.com/c/hotjar-492923.js?sv=7",
+            "functions": {
+                "window.hjBootstrap": {
+                    "API_args": [
+                        [
+                            "Navigator.userAgent.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 4",
+                        "Register count 13",
+                        "Frame size 104",
+                        "Bytecode:",
+                        "LdaGlobal,Star9,LdaConstant,Star10,LdaConstant,Star11,Ldar,Construct,Star1,LdaGlobal,Star9,GetNamedProperty,Star0,JumpIfNull,Ldar,JumpIfNotUndefined,LdaUndefined,Jump,GetNamedProperty,JumpIfToBooleanTrue,LdaConstant,Star2,GetNamedProperty,Star9,CallProperty1,JumpIfToBooleanFalse,LdaGlobal,Star10,GetNamedProperty,Star10,GetNamedProperty,Star9,LdaConstant,Star11,CreateObjectLiteral,Star12,CallProperty2,LdaGlobal,Star10,GetNamedProperty,Star9,LdaConstant,Star11,CallProperty2,LdaUndefined,Return,LdaConstant,Star9,LdaGlobal,Star10,GetNamedProperty,Star10,GetNamedProperty,TestEqualStrict,Star3,LdaGlobal,Star9,LdaGlobal,Star10,GetNamedProperty,Star10,GetNamedProperty,Star10,CallUndefinedReceiver1,Star4,Ldar,JumpIfToBooleanFalse,Ldar,JumpIfToBooleanTrue,LdaGlobal,Star10,GetNamedProperty,Star10,GetNamedProperty,Star9,LdaConstant,Star11,CreateObjectLiteral,Star12,CallProperty2,LdaGlobal,Star10,GetNamedProperty,Star9,LdaConstant,Star11,CallProperty1,LdaUndefined,Return,CreateClosure,Star5,LdaZero,Star10,LdaZero,Star11,Mov,CallUndefinedReceiver,LdaGlobal,Star9,GetNamedProperty,Star6,GetNamedProperty,JumpIfToBooleanTrue,GetNamedProperty,Star9,LdaConstant,Star11,CallProperty1,Star9,LdaZero,GetKeyedProperty,Star7,LdaGlobal,Star9,Ldar,SetNamedProperty,GetNamedProperty,Star9,LdaConstant,Star11,CallProperty1,Star8,LdaSmi,SetNamedProperty,LdaGlobal,Star10,GetNamedProperty,Star10,Ldar,Add,SetNamedProperty,LdaConstant,SetNamedProperty,GetNamedProperty,Star9,CallProperty1,LdaConstant,SetNamedProperty,LdaGlobal,Star9,Ldar,SetNamedProperty,LdaUndefined,Return,"
+                    ]
+                }
+            }
+        },
+        "67": {
+            "scriptURL": "https://sslwidget.criteo.com/event?a=107372&v=5.20.0&csp-nonce=%2FnyRdOVSuQU9MSum0J32Gg%3D%3D&p0=e%3Dce%26m%3D%255B%255D%26h%3Dnone&p1=e%3Dexd%26z%3D%26site_type%3Dd&p2=e%3Dvh%26tms%3Dgtm-custom&p3=e%3Ddis&adce=1&bundle=d04zml9rRmI1NiUyQjlFdHRqdjNrUkdrOW9XTXM5VWdWTG9yV1pOJTJCTCUyQkxxcWluaFNCTWxMUzFHQ0ZkbU13Y2VqV1AzTHhzTDlYQkUlMkJZMVh5QzE5Q09Ma292RWxPVHNBQUdjY2FGbFNaR0tCTmNtMWtHYUxBbXY4S1ZkNU5nRzg4SzZ4OFZrWEtGazRLOUI0RnlqSnM4VnIwRERFQ2FsR053U2Fqa296SVJqcHV4UlRKWSUzRA&tld=mercadopago.com.ar&dy=1&fu=https%253A%252F%252Fwww.mercadopago.com.ar%252F&ceid=1d17c3ed-448b-41dd-8b55-29e834dd3098&dtycbr=2400",
+            "functions": {
+                "isFeatureAllowed": {
+                    "API_args": [
+                        [
+                            "FeaturePolicy.features",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 2",
+                        "Register count 5",
+                        "Frame size 40",
+                        "Bytecode:",
+                        "CreateFunctionContext,PushContext,Ldar,StaCurrentContextSlot,LdaGlobal,Star2,GetNamedProperty,Star0,ToBooleanLogicalNot,JumpIfTrue,GetNamedProperty,Star2,CallProperty0,ToBooleanLogicalNot,ToBooleanLogicalNot,JumpIfFalse,GetNamedProperty,Star3,CallProperty0,Star3,GetNamedProperty,Star2,CreateClosure,Star4,CallProperty1,Return,"
+                    ]
+                }
+            }
+        },
+        "66": {
+            "scriptURL": "https://connect.facebook.net/en_US/fbevents.js",
+            "functions": {
+                "a": {
+                    "API_args": [
+                        [
+                            "Navigator.userAgent.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 2",
+                        "Register count 3",
+                        "Frame size 24",
+                        "Bytecode:",
+                        "LdaImmutableContextSlot,Star0,LdaImmutableCurrentContextSlot,Star2,CallUndefinedReceiver2,Ldar,TestTypeOf,JumpIfFalse,GetNamedProperty,Star0,CallProperty1,Jump,GetNamedProperty,SetNamedProperty,GetNamedProperty,SetNamedProperty,GetNamedProperty,Star1,SetNamedProperty,Ldar,LdaUndefined,Return,"
+                    ]
+                }
+            }
+        },
+        "75": {
+            "scriptURL": "https://script.hotjar.com/modules.3a21fc8f657f3b8e388d.js",
+            "functions": {
+                "t": {
+                    "API_args": [
+                        [
+                            "Navigator.userAgent.get",
+                            ""
+                        ]
+                    ],
+                    "Bytecode": [
+                        "Parameter count 3",
+                        "Register count 11",
+                        "Frame size 88",
+                        "Bytecode:",
+                        "CreateFunctionContext,PushContext,Ldar,StaCurrentContextSlot,Ldar,StaCurrentContextSlot,CreateUnmappedArguments,Star0,GetNamedProperty,Star2,LdaSmi,TestGreaterThan,JumpIfFalse,LdaSmi,GetKeyedProperty,JumpIfUndefined,LdaSmi,GetKeyedProperty,Jump,LdaNull,StaCurrentContextSlot,Mov,LdaGlobal,Star3,LdaImmutableContextSlot,Star4,GetNamedProperty,Star4,Ldar,Construct,StaCurrentContextSlot,Jump,Star3,CreateCatchContext,Star2,LdaTheHole,SetPendingMessage,Ldar,PushContext,LdaGlobal,Star5,GetNamedProperty,Star5,GetNamedProperty,Star4,LdaConstant,Star8,GetNamedProperty,Star7,LdaImmutableContextSlot,JumpIfToBooleanFalse,LdaConstant,Jump,LdaConstant,Star9,LdaConstant,Star10,CallProperty2,Star7,GetNamedProperty,Star6,LdaImmutableCurrentContextSlot,Star8,CallProperty1,Star6,CallProperty1,LdaUndefined,Return,LdaCurrentContextSlot,Star2,CreateClosure,SetNamedProperty,LdaCurrentContextSlot,Star2,CreateClosure,SetNamedProperty,LdaCurrentContextSlot,Star2,CreateClosure,SetNamedProperty,LdaCurrentContextSlot,Star2,CreateClosure,SetNamedProperty,LdaCurrentContextSlot,Return,"
+                    ]
+                }
+            }
+        },
+        "80": {
+            "scriptURL": "https://connect.facebook.net/signals/config/3111280472519655?v=2.9.138&r=stable&domain=www.mercadopago.com.ar",
+            "functions": {}
+        }
+    }
+}

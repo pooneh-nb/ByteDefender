@@ -1,0 +1,121 @@
+"""
+This process creates a database. It includes tokenized bytecodes(separated with comma) 
+which are labeled as True (FP) and False (Non-FP)
+"""
+import sys
+import json
+import pandas as pd
+from tqdm import tqdm
+from pathlib import Path
+sys.path.insert(1, Path.home().cwd().as_posix())
+proj_path = Path.home().cwd()
+import utilities
+import logging
+
+from multiprocessing import Pool
+
+
+label_mapping = {False: 0, True: 1}
+
+columns = ['Site', 'ScriptID', 'Script_URL', 'FunctionName', 'ParameterCount', 'RegisterCount', 'FrameSize', 'Bytecode', 'BytecodeLength', 'CallsAPI', 'Label']
+
+JUMBLING_WORDS = ['############### START ####################', 'Script URL:', 'Script ID:', 
+                  'Function name:', 'Bytecode:', '############### END ####################']
+
+
+
+# def bytecode_to_numbers(bytecode_list, vocab):
+#     """Convert bytecode list to numbers based on vocabulary."""
+#     return [vocab.setdefault(word.strip(), len(vocab) + 1) for word in bytecode_list if word.strip() and not any(jumbling in word for jumbling in JUMBLING_WORDS)]
+
+def process_chunk(db_dir):
+    # db_dir, vocab = args
+    db_name = Path(db_dir).stem
+
+    logging_path = Path(proj_path, f'create_DataBase/DB/script_level/dataset/logs/{db_name}_dataprocessing.log')
+    logging.basicConfig(filename=logging_path, filemode='a', 
+                        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', 
+                        level=logging.ERROR)
+    
+    csv_output_path = Path('create_DataBase/DB/script_level', f'dataset/{db_name}_bytecode_data.csv')
+    csv_output_path.parent.mkdir(parents=True, exist_ok=True) 
+    data_rows = []
+    
+    if not csv_output_path.exists():
+        print(db_name)
+        db = utilities.read_json(db_dir)
+        for site, meta in tqdm(db.items()):
+        # for site, meta in db.items():
+            for script_url, script_info in meta.items():
+                for script_id, info in script_info.items():
+                    for func_name, func_info in info.items():
+                        # concatenate bytecode item into a single string
+                        bytecode_list = ','.join(func_info["Bytecode"]).split(',')
+                        bytecode_sequences = [word.strip() for word in bytecode_list if word.strip() and not any(jumbling in word for jumbling in JUMBLING_WORDS)]
+                        # Map boolean label to numeric
+                        label = label_mapping[func_info["FP"]]
+                        if label == "Label":
+                            continue
+                        label = int(label)
+
+                        calls_api = int(label_mapping[func_info["CallsAPI"]])
+                        
+                        if bytecode_sequences != []:
+                            try:
+                                parameter = False
+                                register = False
+                                frame = False
+
+                                list_start = bytecode_sequences[0].split(' ')[0]
+                                if list_start == 'Parameter':
+                                    parameter_start = bytecode_sequences[0].split(' ')[0]
+                                    if parameter_start == 'Parameter':
+                                        parameter = True
+                                        parameter_count = int(bytecode_sequences[0].split(' ')[-1])
+
+                                    register_start = bytecode_sequences[1].split(' ')[0]
+                                    if register_start == 'Register':
+                                        register = True
+                                        register_count = int(bytecode_sequences[1].split(' ')[-1])
+
+                                    frame_start = bytecode_sequences[2].split(' ')[0]
+                                    if frame_start == 'Frame':
+                                        frame = True
+                                        frame_size = int(bytecode_sequences[2].split(' ')[-1])
+
+                                    if parameter and register and frame:
+                                        # raw_byte = bytecode_to_numbers(bytecode_sequences[3:], vocab)
+                                        raw_byte = bytecode_sequences[3:]
+                                        bytecode_length = len(raw_byte)
+                                        data_rows.append((site, script_id, script_url, func_name, parameter_count, register_count, frame_size, raw_byte, bytecode_length, calls_api, label))                        # Write directly to CSV
+                            except Exception as e:
+                                print(f"Error occurred in 'data_provessing' : {db_name} : {site} : {script_id} : {str(e)}")
+                                logging.error(f"Error occurred in 'data_provessing' : {db_name} : {site} : {script_id} : {str(e)}")
+        
+        if data_rows:
+            pd.DataFrame(data_rows, columns=columns).to_csv(csv_output_path, index=False)   
+        print(db_name, "is done!")
+        data_rows = []
+        db = {}
+
+        # vocab_output_path = Path(Path.cwd(), 'create_DataBase/DB/script_level/dataset/vocab.json')
+        # with open(vocab_output_path, 'w') as f:
+        #     json.dump(vocab, f)
+
+def main():
+
+    dbs_path = Path(Path.cwd(), 'create_DataBase/DB/script_level')
+    dbs = utilities.get_files_in_a_directory(dbs_path)
+
+    # vocab_output_path = Path(dbs_path, 'dataset/vocab.json')
+    # with open(vocab_output_path, 'r') as file:
+    #     vocab = json.load(file)
+
+    # for db_file  in dbs:
+        # process_chunk(db_file, vocab)
+    # args = [(db_file, vocab) for db_file in dbs]
+    with Pool(processes=2) as pool:
+        pool.map(process_chunk, dbs)
+
+if __name__ == "__main__":
+    main()

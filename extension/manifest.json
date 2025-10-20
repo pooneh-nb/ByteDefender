@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "High-Entropy-API Tracer",
+    "description": "Trace high entropy apis.",
+    "version": "1.0",
+    "permissions": ["debugger", "tabs", "webNavigation"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {}
+}
